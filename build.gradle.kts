@@ -24,7 +24,7 @@ repositories {
 //	resolutionStrategy.cacheChangingModulesFor 0, "seconds"
 //}
 
-val resilience4jVersion = "1.7.1"
+val resilience4jVersion = "2.0.2"
 
 tasks.withType<Test> {
 	useJUnitPlatform()
